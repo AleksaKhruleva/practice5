@@ -15,6 +15,7 @@ enum Assembly {
         let vc = CSViewController(interactor: interactor, router: router)
         
         presenter.vc = vc
+        router.vc = vc
         
         return vc
     }
